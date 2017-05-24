@@ -1,8 +1,8 @@
-package tn.bergit.crud.service;
+package com.example.caching.service;
 
 import java.util.List;
 
-import tn.bergit.crud.entity.User;
+import com.example.caching.entity.User;
 
 public interface IUserService {
 	

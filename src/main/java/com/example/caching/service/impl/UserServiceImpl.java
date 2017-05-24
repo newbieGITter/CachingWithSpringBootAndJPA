@@ -1,13 +1,13 @@
-package tn.bergit.crud.impl;
+package com.example.caching.service.impl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import tn.bergit.crud.entity.User;
-import tn.bergit.crud.persistence.IUserPersistence;
-import tn.bergit.crud.service.IUserService;
+import com.example.caching.entity.User;
+import com.example.caching.persistence.IUserPersistence;
+import com.example.caching.service.IUserService;
 
 @Service
 public class UserServiceImpl implements IUserService {

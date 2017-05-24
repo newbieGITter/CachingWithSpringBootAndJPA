@@ -1,8 +1,8 @@
-package tn.bergit.crud.persistence;
+package com.example.caching.persistence;
 
 import java.util.List;
 
-import tn.bergit.crud.entity.User;
+import com.example.caching.entity.User;
 
 public interface IUserPersistence {
 	
